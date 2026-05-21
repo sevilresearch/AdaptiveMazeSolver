@@ -91,8 +91,8 @@ adaptive-astar/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/sevilresearch/adaptive-astar.git
-cd adaptive-astar
+git clone https://github.com/sevilresearch/AdaptiveMazeSolver.git
+cd AdaptiveMazeSolver
 ```
 
 ### 2. Install Dependencies
