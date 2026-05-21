@@ -16,7 +16,13 @@ Outputs (written to results/)
 import random
 import numpy as np
 import pandas as pd
+import os
 
+# Create required directories if they don't exist
+os.makedirs('results/figures', exist_ok=True)
+os.makedirs('results/tables', exist_ok=True)
+os.makedirs('data/raw', exist_ok=True)
+os.makedirs('data/processed', exist_ok=True)
 from src.environment.maze            import generate_multi_path_maze
 from src.algorithms.bfs              import bfs
 from src.algorithms.dfs              import dfs
