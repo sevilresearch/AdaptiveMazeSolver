@@ -44,7 +44,7 @@ with grid sizes from 10×10 to 30×30, providing a reproducible benchmarking fra
 ## Repository Structure
 
 ```
-adaptive-astar/
+AdaptiveMazeSolver/
 │
 ├── run_experiments.py          ← Main entry point: runs all experiments
 ├── requirements.txt            ← Python dependencies
@@ -211,7 +211,7 @@ If you use this code in your research, please cite:
   booktitle = {AIAA SciTech Forum},
   year      = {2025},
   institution = {University of West Florida},
-  url       = {https://github.com/sevilresearch/adaptive-astar}
+  url       = {https://github.com/sevilresearch/AdaptiveMazeSolver}
 }
 ```
 
